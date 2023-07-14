@@ -38,4 +38,5 @@ alter table customer add
 
   select * from customer
 
-
+  select Country, count(*) as numberofcustomer
+  from customer group by Country
